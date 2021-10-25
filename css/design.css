@@ -1,24 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Lexend+Deca:wght@400;600&display=swap');
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
 .container .content {
     display: grid;
-    grid-template-columns: repeat(2,500px);
+    grid-template-columns: repeat(2,calc(0.45*1440px));
     justify-content: center;
     background-color: hsl(244, 38%, 16%);
-    margin-bottom: 10%;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
     border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: calc(0.9*1440px);
+    height: calc(0.6*1000px);
+    position: absolute;
+    top: 200px;
 }
 .container {
+    width: 1440px;
     background-color: hsl(233, 47%, 7%);
-    margin-bottom: 10%;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-bottom: 10%;
     margin-right: 5%;
+    margin-left: 5%;
+    height:1000px;
 }
 h1 ,p,.items .item1,.items .item2,.items .item3 {
     color:hsl(0, 0%, 100%);
@@ -35,20 +44,30 @@ h1 ,p,.items .item1,.items .item2,.items .item3 {
 }
 img {
     width: 100%;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 127px;
+    height: 96%;
     filter: hsl(277, 64%, 61%);
+    border-top-left-radius:     0px;
+    border-top-right-radius:    10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:  0px;
 }
 .simple {
     text-align: left;
     line-height: 1.5;
     font-weight: 400;
+    font-family: Inter ;
 }
 .text {
-    padding: 90px;
+    padding: 140px;
 }
 
 .item1 .number  ,.item2 .number ,.item3 .number {
-    font-weight: bolder;
+    font-family: Lexend Deca ;
+    font-weight: 400;
 }
+.txt {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Inter ;
+}
+
