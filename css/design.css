@@ -1,0 +1,54 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.container .content {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: center;
+    background-color: hsl(244, 38%, 16%);
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.container {
+    background-color: hsl(233, 47%, 7%);
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 ,p,.items .item1,.items .item2,.items .item3 {
+    color:hsl(0, 0%, 100%);
+}
+
+.items {
+    display: grid;
+    padding-top:100px ;
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+}
+.text .bigtext span {
+    color: hsl(277, 64%, 61%);
+}
+img {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 127px;
+    filter: hsl(277, 64%, 61%);
+}
+.simple {
+    text-align: left;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.text {
+    padding: 90px;
+}
+
+.item1 .number  ,.item2 .number ,.item3 .number {
+    font-weight: bolder;
+}
